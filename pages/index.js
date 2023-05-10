@@ -48,8 +48,8 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <div className={styles.logo}>LOGO</div>
-        TODO
+        <Image src={"/logo.png"} width={50} height={50} className={styles.logo} />
+
         <a
           onClick={() => {
             const form = document.getElementById("form");
@@ -67,7 +67,7 @@ export default function Home() {
           Con La IA Más Avanzada Del Planeta
         </h1>
         <div className={styles.videoContainer}>
-          <video controls muted autoplay  className={styles.video}>
+          <video controls muted autoPlay  className={styles.video}>
             <source src="/vid.mp4" type="video/mp4" />
           </video>
           <a
