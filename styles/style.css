@@ -1,0 +1,14 @@
+.valid {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 1px #74aa9c;
+  color: #74aa9c;
+}
+
+.valid:hover {
+  background: #74aa9c;
+  color: white;
+}
