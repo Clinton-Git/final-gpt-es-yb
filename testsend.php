@@ -207,12 +207,13 @@ function getRequestParams(){
         $resultsend = sendToCRM($request_params);
       
          if ($resultsend["success"] == 'true') {
+            print_r($resultsend);
         
-        redirect($resultsend["autologin"]);
-    } else {
-          redirect('thanks/index.html');
+        // redirect($resultsend["autologin"]);
+    // } else {
+    //       redirect('thanks/index.html');
     
-      }
+    //   }
  
 
  ?>   
