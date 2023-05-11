@@ -1,0 +1,261 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+   }
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSansBold.ttf);
+   }
+@font-face {
+    font-family: OpenSansItalic;
+    src: url(../fonts/OpenSansItalic.ttf);
+   }
+@font-face {
+    font-family: OpenSansExtraBold;
+    src: url(../fonts/OpenSansExtraBold.ttf);
+   }
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSansSemiBold.ttf);
+   }
+
+html, body {
+    height:100%; width: 100%; 
+}
+
+.button{
+    background-color: #5798eb;
+    color: white;
+    padding: 16px 25px;
+    margin: 18px auto 0;
+    display: inline-block;
+}
+
+body {
+	background: #fff url(https://q-je.us/lander/tesler/thankyoupage/img/bg.jpg) no-repeat;
+	background-size: 100%;
+    padding: 50px;
+}
+
+
+#cont {display: inline-block; margin-right: auto; margin-left: auto;}
+#ty {
+  font-size: 4em;
+  font-family: "OpenSansBold";
+  color: rgb(66, 156, 98);
+  line-height: 1.5em;
+  margin: 0 auto 25px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+  width: 75%;
+}
+
+.ty {
+  font-size: 36px;
+  font-family: "OpenSansSemiBold";
+  color: rgb(53, 53, 53);
+  line-height: 36px;
+    margin: 0;
+}
+
+.ty span{
+    color: red;
+}
+
+@media screen and (max-width: 680px) {
+	#cont {margin-top: 10px;}
+  #ty {
+  font-size: 3em;
+  line-height: 0.8em;
+  width: auto;
+  display: inline-block;
+  padding: 0 20px 15px;
+}
+  .ty {
+  font-size: 28px;
+  line-height: 28px;
+  }
+body {
+    padding: 5px;
+    padding-bottom: 20px !important;
+}
+#dop {
+  margin-top: 40px;}
+}
+
+
+
+@media screen and (max-width: 500px) {
+#cont {margin-top: 50px;}
+#ty {
+  width: auto;
+  display: inline-block;
+  padding: 0 20px 15px;
+}
+
+body {
+	background-position: 35% 0;
+    padding: 5px;
+}
+}
+
+
+#dop {
+  margin-top: 100px;
+  font-size: 23px;
+  font-family: "Calibri";
+  color: rgb(55, 55, 55);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  background: url(../img/div.png) bottom left no-repeat;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+
+/*-----------допы-----------*/
+
+
+@media screen and (max-width: 1200px){
+    .pop-block {
+        max-width: 224px;
+        margin: 0 auto 30px;
+    }
+    .pop-button {
+        width: 204px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .pop-block {
+        max-width: 270px;
+    }
+#dop {
+  margin-top: 50px;}
+}
+
+@media screen and (max-width: 768px){
+    .pop-block {
+        margin: 0px 4px 12px;
+    }
+    .pop-button {
+        margin: 6px auto 0;
+        width: 198px;
+    }
+    .col-exsm-6{
+        width: 50%;
+        float: left;
+    }
+#dop {
+  margin-top: 30px;}
+}
+
+@media screen and (max-width: 480px){
+    .pop-block {
+        margin: 0px auto 12px;
+    }
+    .col-exsm-6{
+        width: 100%;
+        float: none;
+    }
+    #ty, .ty {text-align: center;}
+}
+
+.pop-block{
+    text-align: center;
+    max-width: 270px;
+    padding-bottom: 31px;
+    position: relative;
+    margin: 0 auto 60px;
+        border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+.pop-block:hover{
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pop-disc{
+    background: url("https://q-je.us/lander/tesler/thankyoupage/img/discount.png");
+    width: 93px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    color: white;
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-right: 16px;
+}
+.pop-name, .pop-detname{
+    color: #373737;
+    font-family: Calibri;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 3px 0 1px;
+    height: 45px;
+    display: table;
+    width: 100%;
+}
+.pop-name span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.pop-line{
+    width: 75%;
+    height: 1px;
+    background-color: #ededed;
+    margin: 17px auto 6px;
+}
+.pop-price{
+    color: #ff6700;
+    font-family: Calibri;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.pop-price span{
+    color: #bababa;
+    font-family: Calibri;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 50px;
+    text-decoration: line-through;
+    padding-right: 11px;
+}
+
+.pop-button{
+    width: 220px;
+    height: 45px;
+    border: 2px solid #d63c47;
+    border-radius: 3px;
+
+    color: #959595;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    margin: 18px auto 0;
+    padding-top: 5px;
+}
+
+.pop-button:hover{
+    background-color: #d63c47;
+    color: white;
+}
+.pop-block a {text-decoration: none;}
+
+.pop-img {width: 100% !important;}

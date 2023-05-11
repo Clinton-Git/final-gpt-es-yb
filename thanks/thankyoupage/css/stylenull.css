@@ -1,0 +1,128 @@
+* {margin: 0;padding: 0; box-sizing:border-box;}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+   }
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSansBold.ttf);
+   }
+@font-face {
+    font-family: OpenSansItalic;
+    src: url(../fonts/OpenSansItalic.ttf);
+   }
+@font-face {
+    font-family: OpenSansExtraBold;
+    src: url(../fonts/OpenSansExtraBold.ttf);
+   }
+@font-face {
+    font-family: OpenSansSemiBold;
+    src: url(../fonts/OpenSansSemiBold.ttf);
+   }
+
+html, body {
+    height:100%; width: 100%; 
+} 
+
+body {
+	background: linear-gradient(#999999c4, #070d15), url(../img/bg2.jpg) no-repeat;
+	background-size: auto 100%;
+	background-position: 50% 0;
+    text-align: center;
+    padding: 50px;
+    background-size: cover;
+}
+
+
+#cont {margin-top: 150px; display: inline-block; margin-right: auto; margin-left: auto;}
+#ty {
+  font-size: 4em;
+  font-family: "OpenSansBold";
+  color: #71ba59;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0 auto 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+  width: 75%;
+}
+
+.ty {
+  font-size: 3em;
+  font-family: "OpenSansSemiBold";
+  color: #273329;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.flag{
+    background-color: #ffffff6b;
+    border-radius: 20px;
+    margin: 26px auto;
+    padding: 18px 0;
+    max-width: 400px;
+}
+
+.flag img{
+    margin: 0 auto 10px;
+    display: block;
+}
+
+.flag span{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.55;
+    font-weight: 400;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.bottom-text{
+    color: #000000;
+    font-size: 17px;
+    font-family: 'Arial',Arial,sans-serif;
+    line-height: 1.35;
+    font-weight: 400;
+    opacity: 0.85;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+
+@media screen and (max-width: 680px) {
+	#cont {margin-top: 10px;}
+  #ty {
+  font-size: 3em;
+  line-height: 0.8em;
+  width: auto;
+  display: inline-block;
+  padding: 0 20px 15px;
+  margin-bottom: 100px;}
+  .ty {
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 20px !important;
+  }
+body {
+    padding: 5px;
+    padding-bottom: 20px !important;
+}
+@media screen and (max-width: 500px) {
+#cont {margin-top: 50px;}
+#ty {
+  width: auto;
+  display: inline-block;
+  padding: 0 20px 15px;
+  margin-bottom: 80px;
+}
+.ty {
+  line-height: 1.0em;
+}
+body {
+	background-position: 35% 0;
+    padding: 5px;
+}
+}
